@@ -1,0 +1,28 @@
+.button {
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: 0;
+    width: 100%;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-one {
+    flex: 1;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

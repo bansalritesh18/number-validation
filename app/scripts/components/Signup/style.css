@@ -1,0 +1,47 @@
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+}
+
+.button {
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: 0;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+}
+
+.password-container {
+    margin-top: 20px;
+}
+
+.input-container label {
+    width: 100px;
+}
+
+.input-container input {
+    width: 100%;
+}
+
+.error-container {
+    height: 20px;
+}
+
+.error {
+    color: red;
+}
+

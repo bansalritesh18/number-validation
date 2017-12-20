@@ -1,0 +1,26 @@
+import keyMirror from 'fbjs/lib/keyMirror'
+
+export const ActionTypes = keyMirror({
+  LOCATION_CHANGE: null,
+  SHOW_ALERT: null,
+  ON_LOGIN: null,
+  ON_LOGOUT: null,
+  ON_USER_NAME_CHANGE: null,
+  ON_PASSWORD_CHANGE: null,
+  ON_LOGIN_SUCCESS: null,
+  ON_LOGIN_FAILURE: null,
+  SHOW_LOGIN_LOADING: null,
+  ON_SIGNUP_SUCCESS: null,
+  ON_SIGNUP: null,
+  SHOW_SIGNUP_LOADING: null,
+  ON_SIGNUP_USER_NAME_CHANGE: null,
+  ON_SIGNUP_PASSWORD_CHANGE: null,
+  ON_SIGNUP_FAILURE: null,
+  DESTROY_SIGNUP: null,
+  VALIDATE_NUMBER: null,
+  VALIDATING_NUMBER: null,
+  DESTROY_LOGIN: null,
+  UPDATE_ATTEMPTS_LEFT: null,
+  NUMBER_VALIDATED: null,
+  VALIDATE_NUMBER_FAILURE: null,
+})
